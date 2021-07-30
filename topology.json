@@ -15,7 +15,7 @@
               "zone": 1
             },
             "devices": [
-              "/dev/vdc","/dev/vdd","/dev/vde"
+              "/kubestorage/mail/mail","/kubestorage/mail/redis"
             ]
           },            {
             "node": {
@@ -30,7 +30,7 @@
               "zone": 1
             },
             "devices": [
-              "/dev/vdc","/dev/vdd","/dev/vde"
+              "/kubestorage/mail/mail","/kubestorage/mail/redis"
             ]
           },            {
             "node": {
@@ -45,7 +45,7 @@
               "zone": 1
             },
             "devices": [
-              "/dev/vdc","/dev/vdd","/dev/vde"
+              "/kubestorage/mail/mail","/kubestorage/mail/redis"
             ]
           }              
         ]
