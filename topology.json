@@ -1,0 +1,54 @@
+{
+    "clusters": [
+      {
+        "nodes": [
+                      {
+            "node": {
+              "hostnames": {
+                "manage": [
+                  "kube1"
+                ],
+                "storage": [
+                  "10.42.0.1"
+                ]
+              },
+              "zone": 1
+            },
+            "devices": [
+              "/dev/vdc","/dev/vdd","/dev/vde"
+            ]
+          },            {
+            "node": {
+              "hostnames": {
+                "manage": [
+                  "kube2"
+                ],
+                "storage": [
+                  "10.42.2.1"
+                ]
+              },
+              "zone": 1
+            },
+            "devices": [
+              "/dev/vdc","/dev/vdd","/dev/vde"
+            ]
+          },            {
+            "node": {
+              "hostnames": {
+                "manage": [
+                  "kube3"
+                ],
+                "storage": [
+                  "10.42.1.1"
+                ]
+              },
+              "zone": 1
+            },
+            "devices": [
+              "/dev/vdc","/dev/vdd","/dev/vde"
+            ]
+          }              
+        ]
+      }
+    ]
+  }
