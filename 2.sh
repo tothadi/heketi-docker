@@ -1,5 +1,5 @@
 for i in dm_snapshot dm_mirror dm_thin_pool; do
-  sudo modprobe $i
+  modprobe $i
 done
 
 ssh-keygen -f /etc/heketi/heketi_key -t rsa -N ''
