@@ -6,6 +6,6 @@ groupadd --system heketi
 useradd -s /sbin/nologin --system -g heketi heketi
 mkdir -p /var/lib/heketi /etc/heketi /var/log/heketi
 apt update && apt upgrade -y
-apt install openssh -y
+apt install openssh-server -y
 
 
