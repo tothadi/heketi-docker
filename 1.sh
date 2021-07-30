@@ -8,4 +8,8 @@ mkdir -p /var/lib/heketi /etc/heketi /var/log/heketi
 apt update && apt upgrade -y
 apt install openssh-server -y
 
+mkdir /root/.ssh
+ssh-keygen -f /etc/heketi/heketi_key -t rsa -N ''
+chown heketi:heketi /etc/heketi/heketi_key*
+chown -R heketi:heketi /var/lib/heketi /var/log/heketi /etc/heketi
 
