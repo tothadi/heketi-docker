@@ -11,4 +11,3 @@ mkdir /root/.ssh
 ssh-keygen -f /etc/heketi/heketi_key -t rsa -N ''
 chown heketi:heketi /etc/heketi/heketi_key*
 chown -R heketi:heketi /var/lib/heketi /var/log/heketi /etc/heketi
-
