@@ -9,3 +9,5 @@ done
 heketi-cli topology load --json=/etc/heketi/topology.json
 systemctl daemon-reload
 systemctl enable --now heketi
+
+chown -R heketi:heketi /var/lib/heketi /var/log/heketi /etc/heketi
