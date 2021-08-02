@@ -7,5 +7,4 @@ for i in 10.42.0.1 10.42.1.1 10.42.2.1; do
 done
 
 heketi-cli topology load --json=/etc/heketi/topology.json
-systemctl daemon-reload
-systemctl enable --now heketi
+/etc/init.d/heketi start

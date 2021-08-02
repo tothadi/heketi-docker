@@ -6,7 +6,7 @@ groupadd --system heketi
 useradd -s /sbin/nologin --system -g heketi heketi
 mkdir -p /var/lib/heketi /etc/heketi /var/log/heketi
 apt update && apt upgrade -y
-apt install openssh-server -y
+apt install openssh-server nano curl -y
 mkdir /root/.ssh
 ssh-keygen -f /etc/heketi/heketi_key -t rsa -N ''
 chown heketi:heketi /etc/heketi/heketi_key*
