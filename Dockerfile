@@ -6,4 +6,4 @@ RUN /setup/1.sh
 COPY ./heketi.json /etc/heketi/
 COPY ./topology.json /etc/heketi/
 COPY ./heketi.service /etc/systemd/system/
-COPY ./healthy /tmp/healthy
+COPY ./healthy /etc/heketi/
