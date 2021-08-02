@@ -5,5 +5,4 @@ RUN chmod +x /setup/*.sh
 RUN /setup/1.sh
 COPY ./heketi.json /etc/heketi/
 COPY ./topology.json /etc/heketi/
-COPY ./heketi.service /etc/heketi/
 COPY ./healthy /etc/heketi/
